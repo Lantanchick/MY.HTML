@@ -16,4 +16,5 @@ def page_profile():
     return t
 
 
-app.run()
+if __name__ == "__main__":
+    app.run(debug=False)
